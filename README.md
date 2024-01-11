@@ -3,9 +3,7 @@
 The main purpose is to make it look like Aim Lab, but instead of using a mouse, you use your fingers as a mouse to shoot. There are three modes and three difficulty levels. There are different scores according to different modes and difficulty levels. The end screen will also show your current score and ranking.
 
 ## Pre Install
-:::info
-Before starting, Please check your computer have these enviroment and all the python package
-:::
+Before starting, Please check your computer has these environments and all the Python package
 1. [Anaconda](###Anaconda)
 2. [Keras](###Keras)
 3. [OpenCV](###OpenCV)
@@ -18,9 +16,9 @@ Before starting, Please check your computer have these enviroment and all the py
 1. Please go to the Anaconda website to download the software first
 https://www.anaconda.com/download/
 ![anaconda](https://blog-cavedu.sgp1.digitaloceanspaces.com/wp-content/uploads/2018/09/00-0_2020-768x469.jpg)
-2. After finishing downloading, open anaconda prompt on your computer
+2. After finishing downloading, open the Anaconda prompt on your computer
 ![anaconda prompt](https://blog-cavedu.sgp1.digitaloceanspaces.com/wp-content/uploads/2018/09/p11-768x257.png)
-3. Create Anaconda environment (type the following code in your prompt)
+3. Create an Anaconda environment (type the following code in your prompt)
 ```cmd=
 conda create --name testAI python=3.7 anaconda
 ```
@@ -72,11 +70,11 @@ python Game_Screen.py
 
 ## Game Mode
 ### Random Shooting
-One ball will move to random position per times which can be adjust in the settings
+One ball will move to a random position per time which can be adjusted in the settings
 ### Random and Decreasing
-One ball will still move randomly but will decrease the size when every time you shoot
+One ball will still move randomly but will decrease in size when every time you shoot
 ### Multiple Shooting
-Up to six balls will show on the screen. Each time you shoot will add another ball on the screen. One random ball will randomly change its position.
+Up to six balls will show on the screen. Each time you shoot, you will add another ball on the screen. One random ball will randomly change its position.
 ## Game Rule
 ### Main Rule
 1. Time Set: 30 seconds
